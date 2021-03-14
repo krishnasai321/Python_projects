@@ -23,6 +23,9 @@ stream = video.streams.get_highest_resolution()
 #File name of the video about to be downloaded
 stream.default_filename
 
+#Video Resolution
+stream.resolution
+
 #Title of the video
 stream.title
 
