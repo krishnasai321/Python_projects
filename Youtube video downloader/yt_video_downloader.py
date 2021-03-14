@@ -26,6 +26,9 @@ stream.default_filename
 #Video Resolution
 stream.resolution
 
+#Checking the lowest resolution 
+video.streams.get_lowest_resolution().resolution
+
 #Title of the video
 stream.title
 
