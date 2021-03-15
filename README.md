@@ -4,4 +4,4 @@ Unique projects with help of python
 - Text to speech
 - Face detection (Image/Video)
 - Eye detection
-- Age detection
+- Gender and age detection (Image/Video)

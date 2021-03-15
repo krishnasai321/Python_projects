@@ -46,7 +46,7 @@ genderNet=cv2.dnn.readNet(genderModel,genderProto)
 #Using a image
 video=cv2.VideoCapture('sachin-tendulkar.jpg')
 
-#In case to do in a webcam
+#In case to do in a webcam or even a video (use .avi or .mp4 format)
 #video=cv2.VideoCapture(0)
 
 padding=20
