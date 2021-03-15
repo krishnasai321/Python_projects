@@ -10,7 +10,7 @@ import cv2
 import os
 
 #Setting directory
-os.chdir('C:\\Data\\github\\python_projects\\Open CV')
+os.chdir('C:\\Data\\github\\python_projects\\Open CV\\Face detection')
 
 #Using the frontalface xml file
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
