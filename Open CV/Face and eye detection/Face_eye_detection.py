@@ -26,6 +26,7 @@ cv2.imshow("sachin", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+#Gray image required for eye detection
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 #Detection corners of face and eyes
