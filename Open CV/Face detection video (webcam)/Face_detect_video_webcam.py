@@ -36,8 +36,7 @@ while True:
     # Display the resulting frame
     cv2.imshow('Video', frame)
 
-    # press 'q' key to end the video
-
+    # press 'q' key to close the webcam
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
