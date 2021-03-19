@@ -9,3 +9,4 @@ Unique projects with help of python
   - [Gender and age detection (Image/Video)](https://github.com/krishnasai321/Python_projects/tree/main/Open%20CV/Gender%20age%20detector)
 - [Stock price finder](https://github.com/krishnasai321/Python_projects/tree/main/NSE%20Stock%20information)
 - [Sending SMS (free) to any number](https://github.com/krishnasai321/Python_projects/tree/main/Sending%20SMS%20(free)%20to%20any%20number)
+- [Wikipedia retriving articles](https://github.com/krishnasai321/Python_projects/tree/main/Wikipedia)
