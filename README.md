@@ -3,7 +3,7 @@ Unique projects with help of python
 
 - [Youtube video downloader](https://github.com/krishnasai321/Python_projects/tree/main/Youtube%20video%20downloader)
 - [Text to speech](https://github.com/krishnasai321/Python_projects/tree/main/Text%20to%20speech)
-- Open CV (Image and Video processing)
+- Open CV (Image and Video processing) -
   - [Face and Eye detection (Image)](https://github.com/krishnasai321/Python_projects/tree/main/Open%20CV/Face%20and%20eye%20detection)
   - [Face and Eye detection (Webcam or video)](https://github.com/krishnasai321/Python_projects/tree/main/Open%20CV/Face%20detection%20video%20(webcam))
   - [Gender and age detection (Image/Video)](https://github.com/krishnasai321/Python_projects/tree/main/Open%20CV/Gender%20age%20detector)
