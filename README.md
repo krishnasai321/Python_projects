@@ -8,6 +8,7 @@ Unique projects with help of python
   - [Face and Eye detection (Webcam or video)](https://github.com/krishnasai321/Python_projects/tree/main/Open%20CV/Face%20detection%20video%20(webcam))
   - [Gender and age detection (Image/Video)](https://github.com/krishnasai321/Python_projects/tree/main/Open%20CV/Gender%20age%20detector)
 - [Stock price finder](https://github.com/krishnasai321/Python_projects/tree/main/NSE%20Stock%20information)
+- [Stock price trend prediction (LSTM)](https://github.com/krishnasai321/Python_projects/tree/main/Stock%20price%20trend%20prediction%20(LSTM))
 - [Sending SMS (free) to any number](https://github.com/krishnasai321/Python_projects/tree/main/Sending%20SMS%20(free)%20to%20any%20number)
 - [Wikipedia retriving articles](https://github.com/krishnasai321/Python_projects/tree/main/Wikipedia)
 - [Google translator](https://github.com/krishnasai321/Python_projects/tree/main/Google%20translate)
