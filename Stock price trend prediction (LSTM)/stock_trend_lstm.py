@@ -21,9 +21,11 @@ os.chdir('C:\\Data\\github\\Python_projects\\Stock price trend prediction (LSTM)
 df=pd.read_csv('NSE-Tata-Global-Beverages-Limited.csv')
 df.head()
 
-#Changin data and some preprocessing steps
+#Changing date formats and some preprocessing steps
 df['Date']=pd.to_datetime(df.Date,format="%Y-%m-%d")
 df.index=df['Date']
+
+#Plotting the stock trend
 plt.figure(figsize=(16,8))
 plt.plot(df["Close"],label='Close Price history')
 
@@ -47,9 +49,9 @@ valid_data=final_dataset[987:,:]
 #Scaling data
 scaled_data=scaler.fit_transform(final_dataset)
 
+#Adding lot of lag values which means we have lot of columns for training
 x_train_data,y_train_data=[],[]
 
-#Adding lot of lag values which means we have lot of columns for training
 for i in range(60,len(train_data)):
     x_train_data.append(scaled_data[i-60:i,0])
     y_train_data.append(scaled_data[i,0])
@@ -86,4 +88,3 @@ valid_data['Predictions']=predicted_closing_price
 #Plotting
 plt.plot(train_data["Close"])
 plt.plot(valid_data[['Close',"Predictions"]])
-
